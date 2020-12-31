@@ -4,6 +4,8 @@ $username = "root";
 $password = "";
 $dbname = "ApiRequest";
 
+$row;
+
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 if(!$conn){
